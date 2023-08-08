@@ -1,0 +1,266 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Borel', cursive; */
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Rubik', sans-serif; */
+    background-color: rgb(211, 211, 211);
+
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(228, 228, 228, 0.5);
+}
+
+
+.custom_btn{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: 1px solid white;
+    margin: auto;
+}
+
+.second_custom_btn{
+    background-color: #e2a54a;
+    color: #000000;
+}
+.third_custom_btn{
+    background-color: #2a3a51;
+    color: white;
+}
+.third_custom_btn:hover{
+    border: 1px solid #2a3a51 !important;
+}
+
+.custom_btn, .second_custom_btn, .third_custom_btn {
+    text-transform: capitalize;
+    white-space: nowrap;
+    border-radius: 6.25rem;
+    padding: 1.325rem 2.5rem;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 100%;
+    transition: all .3s;
+    text-decoration: none;
+    width: 170px ;
+    text-align: center;
+}
+
+.custom_btn:hover {
+    border: 1px solid #2e004e !important;
+    background-color: unset;
+    color: white;
+}
+.second_custom_btn:hover {
+    background-color: #2a3a51;
+    color: white;
+}
+
+.step_card {
+    padding: 20px;
+    transition: all .3s ease-in-out;
+}
+
+.step_card:hover {
+    background-color: white;
+    box-shadow: 0px 6px 12px 0px #cbcbcb;
+    border-radius: 10px;
+    /* scale: 1.05; */
+}
+
+.a_hero_section {
+    /* background-image: url('../Images/hero-images/remortgage-your-home-hero.jpg'); */
+    background-image: url('../Images/hero-images/main-banner1.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position:  ;
+}
+
+.a_hero_title {
+    color: #e2a550 !important;
+    font-size: 6.25rem;
+    font-weight: 500;
+    line-height: 105%;
+}
+
+.mortgage-quote-content {
+    padding: 70px 50px 70px;
+}
+
+.mortgage-quote-content h3 {
+    font-weight: 700;
+    font-size: 38px;
+    margin-bottom: 15px;
+    color: #fff;
+}
+.mortgage-quote-content p {
+    font-size: 15px;
+    margin-bottom: 25px;
+    color: #fff;
+}
+.mortgage-quote-content .quote-btn {
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 5px;
+    background: #00c195;
+    color: #fff;
+    -webkit-transition: .5s all ease;
+    transition: .5s all ease;
+    text-decoration: none;
+}
+.mortgage-quote-image {
+    background-image: url('../Images/hero-images/btl-best-buys.jpg');
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+.btn-bg-overide-big {
+    background-color: #002d72 !important
+}
+
+.btn.btn-bg-overide.active {
+    background-color: #002d72 !important
+}
+
+.btn.btn-bg-overide {
+    background-color: #ccc !important
+}
+
+option:disabled {
+    color: lightgray
+}
+a.fw-bold.text-decoration-none {
+    transition: .3s;
+}
+a.fw-bold.text-decoration-none:hover {
+    color: #b06de0 !important;
+}
+/* .one-blog-area .blog-item {
+    margin-bottom: 30px;
+    -webkit-transition: .5s all ease;
+    transition: .5s all ease;
+    -webkit-box-shadow: 0 0 20px 0 #ddddddab;
+    box-shadow: 0 0 20px 0 #ddddddab;
+    background-color: #fff;
+}
+.one-blog-area .blog-item .blog-top {
+    position: relative;
+} */
+.one-blog-area .blog-item {
+    margin-bottom: 30px;
+    -webkit-transition: .5s all ease;
+    transition: .5s all ease;
+    -webkit-box-shadow: 0 0 20px 0 #ddddddab;
+    box-shadow: 0 0 20px 0 #ddddddab;
+    background-color: #fff
+}
+
+.one-blog-area .blog-item:hover {
+    -webkit-transform: translate(0,-10px);
+    transform: translate(0,-10px)
+}
+
+.one-blog-area .blog-item .blog-top {
+    position: relative
+}
+
+.one-blog-area .blog-item .blog-top a {
+    display: block
+}
+
+.one-blog-area .blog-item .blog-top a img {
+    width: 100%
+}
+
+.one-blog-area .blog-item .blog-top span {
+    display: inline-block;
+    color: #fff;
+    font-size: 13px;
+    background: -webkit-gradient(linear,left top,right top,color-stop(23%,#e2a54a),color-stop(64%,#edba00));
+    background: linear-gradient(90deg,#e2a54a 23%,#edba00 64%);
+    padding: 7px 12px;
+    position: absolute;
+    bottom: 0;
+    right: 35px
+}
+
+.one-blog-area .blog-item .blog-bottom {
+    padding: 20px 25px
+}
+
+.one-blog-area .blog-item .blog-bottom ul {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 18px
+}
+
+.one-blog-area .blog-item .blog-bottom ul li {
+    list-style-type: none;
+    display: inline-block;
+    color: #767676;
+    font-size: 13px;
+    margin-right: 10px
+}
+
+.one-blog-area .blog-item .blog-bottom ul li:last-child {
+    margin-right: 0
+}
+
+.one-blog-area .blog-item .blog-bottom ul li i {
+    display: inline-block;
+    color: #395dc7;
+    font-size: 14px;
+    position: relative;
+    top: 1px;
+    margin-right: 1px
+}
+
+.one-blog-area .blog-item .blog-bottom h3 {
+    font-weight: 600;
+    font-size: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #e6e6e6;
+    margin-bottom: 15px
+}
+
+.one-blog-area .blog-item .blog-bottom h3 a {
+    color: #0d1820;
+    display: inline-block
+}
+
+.one-blog-area .blog-item .blog-bottom h3 a:hover {
+    color: #e2a54a
+}
+
+.one-blog-area .blog-item .blog-bottom img {
+    display: inline-block;
+    margin-right: 3px
+}
+
+.one-blog-area .blog-item .blog-bottom p {
+    margin-bottom: 0;
+    display: inline-block;
+    font-size: 13px;
+    color: #525252
+}
+
+.one-blog-area .blog-item .blog-bottom p a {
+    display: inline-block;
+    color: #525252
+}
+
+.one-blog-area .blog-item .blog-bottom p a:hover {
+    color: #e2a54a
+}
